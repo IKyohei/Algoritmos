@@ -1,0 +1,16 @@
+Algoritmo Par ou Impar
+VAR
+N: inteiro;
+Inicio
+  Escreva("digite um numero:");
+  Se (N mod 2=0)
+      entao inicio
+        N<--N*2;
+        escreva(N);
+      fim;
+      senao inicio
+        N<--N+1
+        escreva(N);
+      fim;
+Fim.
+      
