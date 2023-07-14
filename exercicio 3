@@ -1,0 +1,38 @@
+Algoritmo Salario
+
+Var
+Idade: inteiro;
+salario: real;
+
+Inicio
+Escreva("digite a sua idade:");
+leia(idade);
+Escreva("digite o seu salario");
+leia(salario);
+Se(idade<30)
+entao inicio
+        salario<--salario*1.10
+        escreva("seu salario com ajuste é:", salario)
+     fim
+senao inicio
+      se((idade >= 31) e (idade <= 40))
+      entao inicio
+          salario <--salario*1.17
+          escreva("seu salario com ajuste é:", salario)
+        fim
+      senao inicio
+              se ((idade >= 41) e (idade <= 60))
+              entao inicio
+                  salario <--salario*1.28
+                  escreva("seu salario com ajuste é:", salario)
+                fim
+              senao inicio 
+                    se (idade > 61)
+                    entao inicio
+                        salario <--salario*1.415
+                        escreva("seu salario com ajuste é:", salario)
+                        fim
+                fim
+          fim
+      fim
+FIM.
