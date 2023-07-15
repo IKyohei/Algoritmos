@@ -1,1 +1,21 @@
+Algoritmo
+
+var
+n: inteiro;
+sub, soma: inteiro;
+
+inicio
+
+escreva('digite um numero:');
+leia(n);
+  Se(n>100)
+    entao inicio
+    sub<-- 100-n
+    escreva("subtraia" ,sub,"para chegar em 100");
+    fim
+    senao inicio
+    soma<--100-n
+    escreva("some",soma,"para chegar em 100");
+    fim
+FIM.
 
